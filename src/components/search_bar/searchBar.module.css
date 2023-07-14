@@ -1,0 +1,14 @@
+.input_input_field{
+    min-width: 450px;
+    min-height: 50px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #151515;
+
+}
+
+.home_searct_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

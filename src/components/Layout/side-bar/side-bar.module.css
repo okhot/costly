@@ -1,0 +1,74 @@
+.rice {
+ background-color: #151515;
+ padding: 40px;
+ min-height: 900px;
+ min-width: 250px;
+ border-radius: 30px;
+ display: flex;
+ align-items: left;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.sidebar_columns{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sidebar_profile_pic {
+    width: 65px;
+    height: 65px;
+    border-radius: 20px;
+}
+
+.sidebar_profile{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    border-bottom: 1px solid #2A2A2A;
+    padding-bottom: 50px;
+}
+
+.sidebar_columns {
+    padding-top: 50px;
+}
+
+.sidebar_rows_item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #757575;
+    padding-left: 15px;
+}
+
+.sidebar_rows{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.sidebar_columns_title{
+    padding-bottom: 10px;
+}
+
+.sidebar_button{
+    height: 45px;
+    width: 180px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    border: 0px;
+   margin-top: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.sidebar_button_section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

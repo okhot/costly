@@ -1,8 +1,9 @@
+import SideBar from '@/components/Layout/side-bar/side-bar'
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+import styles from './page.module.css'
+
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body  className={styles.home}> <SideBar />{children}</body>
     </html>
   )
 }
